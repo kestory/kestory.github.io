@@ -2,11 +2,12 @@
 title: Kestory's Blog
 SEOTitle: xzq的博客 | xzq's Blog
 subtitle: Anything for nothing
-# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+welcome_message: 伪极简主义，INTP
+    # <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: A senior NJU_CSer
-creator: <a href="http://onev.cat">@onevcat</a>
+creator: <a href="http://kestory.github.io/">@kestory</a>
 
-url: "http://vno.onevcat.com"
+url: "http://kestory.github.io/"
 
 permalink: /:year/:month/:title/
 
@@ -14,7 +15,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: purple
 
 # The blog button should not be removed.
 blog_button:
@@ -24,7 +25,7 @@ blog_button:
 # Navigation buttons in the front page.
 nav:
     - {title: Projects, description: My Projects, url: 'https://github.com/kestory'}
-    # - {title: Resume, description: My CV, url: 'http://project.onevcat.com'}
+    - {title: Resume, description: My CV, url: 'https://kestory.github.io/animating-resume/public/'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -34,19 +35,22 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    # disqus: vno-jekyll
     # duoshuo:
+    livere_uid: MTAyMC80MjI1NC8xODgwMQ
 
 # Social SNS settings
 social:
     weibo: kestory
     github: kestory
-    twitter: kestory
-    # zhihu:  kestory
+    zhihu: kestory
+    twitter: kestory_xu
     gplus: kestory
+    # RSS: false
     mail: kestoryxu@gmail.com
+
 
 # Google Analytics
 ga:
-    # id: your_ga_id
+    id: UA-132859938-1
     # host: your_host
