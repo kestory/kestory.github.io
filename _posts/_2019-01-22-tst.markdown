@@ -4,21 +4,7 @@ title: tst
 date: 2019-01-22
 ---
 
-##<center>Compiler HomeWork6</center>
-###<p align="right">151220137 许子谦</p>
 
-###Ex6.1.1
-
-![](./assets/1.png)  
-
-
-###Ex6.2.1
-
-算术表达式：**a + -(b+c)**
-
-抽象语法树
-
-![](./assets/2.png)  
 
 三地址代码  
 
@@ -61,7 +47,7 @@ t3 = a + t2
 
 抽象语法树
 
-![](./assets/3.png)  
+
 
 三地址代码  
 
@@ -110,7 +96,7 @@ a[i] = t3
 
 抽象语法树
 
-![](./assets/4.png)  
+
 
 三地址代码  
 

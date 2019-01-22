@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>GameTheory HomeWork1</title>
+  <meta name="description" content="">
+  <meta name="author" content="Wei Wang">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="GameTheory HomeWork1">
+  <meta name="twitter:description" content="">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="GameTheory HomeWork1">
+  <meta property="og:description" content="">
+  
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/2019/01/GameTheory-Intro/">
+  <link rel="alternate" type="application/rss+xml" title="Kestory's Blog" href="http://localhost:4000/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+  
+</head>
+
+
+  <body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+    
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url('/assets/images/background-cover.jpg')">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/#blog" title="前往 Kestory's Blog 的主页" class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="Kestory's Blog logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for Kestory's Blog" class="blog-button">Kestory's Blog</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">Anything for nothing</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">A senior NJU_CSer</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+        
+        <p class="panel-cover__description">伪极简主义，INTP</p>
+        
+        
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="Visit blog" class="blog-button">Blog</a></li>
+                
+                  <li class="navigation__item"><a href="https://github.com/kestory" target="_blank" title="My Projects">Projects</a></li>
+                
+                  <li class="navigation__item"><a href="https://kestory.github.io/animating-resume/public/" target="_blank" title="My CV">Resume</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+          
+          <div><nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/kestory" title="@kestory 的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://github.com/kestory" title="@kestory 的 Github" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+  
+  
+  
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/kestory_xu" title="@kestory_xu" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Google Plus -->
+  <li class="navigation__item">
+    <a href="https://plus.google.com/kestory" rel="author" title="Google+" target="_blank">
+      <i class='social fa fa-google-plus-square'></i>
+      <span class="label">Google Plus</span>
+    </a>
+  </li>
+  
+
+  <!-- RSS -->
+  <li class="navigation__item">
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+  
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:kestoryxu@gmail.com" title="Contact me">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+  
+
+  </ul>
+</nav>
+</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-purple"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2019-01-22 00:00:00 +0800" itemprop="datePublished" class="post-meta__date date">2019-01-22</time> &#8226; <span class="post-meta__tags tags"></span>
+    </div>
+    <h1 class="post-title">GameTheory HomeWork1</h1>
+  </header>
+
+  <section class="post">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<ul>
+  <li>Chap0 三选一</li>
+  <li>Chap1 An Exercise: n-Cournot Competition</li>
+  <li>Chap2 两题</li>
+</ul>
+
+<hr />
+
+<h2 id="chap0">Chap0</h2>
+<p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fzfryvuis6j314h0u0n75.jpg" alt="" /></p>
+
+<hr />
+<h4 id="exercise-1">Exercise 1</h4>
+<p>由 \( S_{n+1} \geq 2S_n \)<br />
+得 \( S_n+a_{n+1} \geq 2S_n \)<br />
+所以 \( a_{n+1} \geq S_n \)</p>
+
+<p>\( n=1 \) 时 \( a_2\geq S_1=a_1 \)<br />
+\( n=2 \) 时 \( a_3\geq S_2=a_1+a_2 \geq 2a_1 \)<br />
+\( n=3 \) 时 \( a_4\geq S_3=S_2+a_3 \geq 4a_1 \)<br />
+\( n=4 \) 时 \( a_5\geq S_4=S_3+a_4 \geq 8a_1 \)<br />
+…<br />
+推得 \( a_{n+1} \geq 2^{n-1}a_1 \) 对于\( n \geq 1 \)<br />
+即 \( a_{n} \geq 2^{n-2}a_1 \) 对于\( n \geq 2 \)  <br />
+所以 \( c \) 只需要取 \( (0,\cfrac{a_1}{4}) \) 之间的数字即可得到 \( a_n \geq 2^nc \)<br />
+\( a_{n+1} \geq 2^{n-1}a_1 \)的证明如下：<br />
+\( a_{n+1} \geq S_n \geq a_n+S_{n-1} \geq 2S_{n-1} \geq 2(a_{n-1}+S_{n-2}) \geq 4S_{n-2} \geq … \geq 2^{n-1}S_1 = 2^{n-1}a_1\)</p>
+
+<hr />
+<h4 id="exercise-2">Exercise 2</h4>
+<p>设给出的特征向量为\(\xi_1\)，矩阵为\(A\)，有\(A\xi_1=\lambda_1\xi_1\)<br />
+<script type="math/tex">% <![CDATA[
+\left[
+ \begin{matrix}
+   2 & -1 & b \\\
+   5 & a & 3 \\\
+   -1 & 2 & -1
+  \end{matrix}
+  \right] 
+ \left[
+ \begin{matrix}
+   1\\\
+   1\\\
+   -1
+  \end{matrix}
+  \right]
+  =\lambda\_1
+   \left[
+ \begin{matrix}
+   1\\\
+   1\\\
+   -1
+  \end{matrix}
+  \right] %]]></script>
+解得\(\lambda_1=-2, a=-4, b=3\)<br />
+由
+<script type="math/tex">% <![CDATA[
+|\lambda E-A|=
+ \left|
+ \begin{matrix}
+   \lambda-2 & 1 & -3 \\\
+   -5 & \lambda+4 & -3 \\\
+   1 & -2 & \lambda+1
+  \end{matrix}
+  \right| 
+  =(\lambda+2)(\lambda-2)(\lambda+3)=0 %]]></script>
+得\(A\)的三个特征值为\(\lambda_1=-2, \lambda_2=2, \lambda_3=-3\)</p>
+
+<hr />
+<h4 id="exercise-3">Exercise 3</h4>
+<p>由 \(x+1 \leq e^x\)<br />
+易得 \(x \leq e^{x-1}\)<br />
+易得 \(\cfrac{1+\sqrt{1+4\epsilon^2}}{2} \leq e^{\cfrac{\sqrt{1+4\epsilon^2}-1}{2}}\)<br />
+即证 \(e^{\frac{\sqrt{1+4\epsilon^2}-1}{2}} e^{1-\sqrt{1+4\epsilon^2}} \leq e^{-\frac{\epsilon^2-\epsilon^3}{2}}\)<br />
+\(\Leftrightarrow 1-\sqrt{1+4\epsilon^2} \leq \epsilon^3-\epsilon^2\)<br />
+\(\Leftrightarrow 1+\epsilon^2-\epsilon^3 \leq \sqrt{1+4\epsilon^2}\)<br />
+…<br />
+…</p>
+
+<p>&lt;/br&gt;
+&lt;/br&gt;</p>
+
+<hr />
+
+<h2 id="chap1">Chap1</h2>
+<p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fzfrz0g4w7j314d0u0471.jpg" alt="" /></p>
+
+<hr />
+<p>令收益函数的自变量为\(q_i\)，即求一元二次方程最值时的自变量<br />
+\(f(q_i)=(a-b(q_1+…+q_n)-c)q_i=(a-c-b\sum\limits_{k\neq i}q_k)q_i-bq_i^2\)</p>
+
+<p>对称轴为\( \cfrac{a-c-b\sum\limits_{k\neq i}q_k}{2b} \)，对称轴为负时收益为负不如产量为0<br />
+对称轴为正时在对称轴处取最值<br />
+n个式子连等</p>
+
+<p>\( q_i^*=B_i(q_{-i}^{*})=\cfrac{a-c-b\sum\limits_{k\neq i}q_k}{2b} \)</p>
+
+<p>\(q_i^{*}\)都等价</p>
+
+<p>得\( q_i^*=\cfrac{a-c}{(n+1)b} \)<br />
+即\(NE\)为\(\begin{Bmatrix}\left(\cfrac{a-c}{(n+1)b}, \cfrac{a-c}{(n+1)b}, … , \cfrac{a-c}{(n+1)b}\right)\end{Bmatrix}\)</p>
+
+<hr />
+
+<h2 id="chap2">Chap2</h2>
+<h3 id="exercise-1-1">Exercise 1</h3>
+<h3 id="find-all-pure-strategy-nash-equilibria">Find all pure strategy Nash equilibria</h3>
+<p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fzfrz67u3bj31nw0u0459.jpg" alt="" /><br />
+纯策略NE就是找<strong>蓝列最大值</strong>和<strong>红行最大值</strong><br />
+<img src="https://ws1.sinaimg.cn/large/006tNc79gy1fzfrz9b4n8j31nw0u0jwt.jpg" alt="" /><br />
+该博弈只有一个纳什均衡 <strong>(e, l)</strong></p>
+
+<hr />
+<h3 id="exercise-2-田忌赛马">Exercise 2 田忌赛马</h3>
+<p>令齐威王的策略分别为 \( a_1, a_2, a_3, a_4, a_5, a_6 \)，每个策略对应的概率\( x_1, x_2, x_3, x_4, x_5, x_6 \)<br />
+田忌的策略分别为 \( b_1, b_2, b_3, b_4, b_5, b_6 \)，每个策略对应的概率\( y_1, y_2, y_3, y_4, y_5, y_6 \)</p>
+
+<p>齐威王各策略的期望收益函数为：<br />
+\( U_1(a_1, p_2) = 3x_1 + x_2 + x_3 + x_4 - x_5 + x_6 \)<br />
+\( U_1(a_2, p_2) = x_1 + 3x_2 + x_3 + x_4 + x_5 - x_6 \)<br />
+\( U_1(a_3, p_2) = x_1 - x_2 + 3x_3 + x_4 + x_5 + x_6 \)<br />
+\( U_1(a_4, p_2) = -x_1 + x_2 + x_3 + 3x_4 + x_5 + x_6 \)<br />
+\( U_1(a_5, p_2) = x_1 + x_2 + x_3 - x_4 + 3x_5 + x_6 \)<br />
+\( U_1(a_6, p_2) = x_1 + x_2 - x_3 + x_4 + x_5 + 3x_6 \)<br />
+混合策略NE就是蓝行皆相等 以上6式子皆相等<br />
+\(  x_i \)都等价，所以都为\( \frac{1}{6} \)。同理\(  y_i \)都为\( \frac{1}{6} \)。 
+不过齐威王各策略的期望收益都为\(  1 \)，而田忌各策略的期望收益都为\(  -1 \)<br />
+Nash Equilibrium: \( p=(p_1, p_2)=((\cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}), (\cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6})) \)</p>
+
+  </section>
+</article>
+
+<section class="read-more">
+   
+   
+   <div class="read-more-item">
+       <span class="read-more-item-dim">最近的文章</span>
+       <h2 class="post-list__post-title post-title"><a href="/2019/01/1/" title="link to dental-cleaning-in-nanjing">dental-cleaning-in-nanjing</a></h2>
+       <p class="excerpt">江苏省口腔医院：（上海站出来就是）（其实也是南京医科大学附属口腔医院…“暨”的关系，多重身份挂牌吧）可以预约，步骤：关注微信公众号→【魅力医院】→【微官网】→【常用就诊人】（实名注册，若是儿童就先注册家长，后添加儿童）→【今日挂号】（选科室，普通号/专家号，时间）→【就诊卡】→【立即挂号】→预约（约的区间是一小时，在3/4的时间前要到自助机或人工窗口缴费才行）洁牙预约：上午六点开始，【今日挂号】→【牙周病科】→牙周（洁）（一定要括号带“洁”字！它特地写很大导致我略过了…挂错号若是确定下一次...&hellip;</p>
+       <div class="post-list__meta"><time datetime="2019-01-22 00:00:00 +0800" class="post-list__meta--date date">2019-01-22</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2019/01/1/>继续阅读</a></div>
+   </div>
+   
+   
+   
+</section>
+
+<section class="post-comments">
+  
+  
+  
+  
+</section>
+
+
+<!-- 来必力City版安装代码 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC80MjI1NC8xODgwMQ==">
+    <script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+    </script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+<!-- City版安装代码已完成 -->
+
+            <section class="footer">
+    <footer>
+    	<span class="footer__copyright">本站点采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a></span>
+        <span class="footer__copyright">由 <a href="https://jekyllrb.com">Jekyll</a> 于 2019-01-22 生成，感谢 <a href="https://www.digitalocean.com/?refcode=30ed2d146762">Digital Ocean</a> 为本站提供稳定的 VPS 服务</span>
+        <span class="footer__copyright">本站由 <a href="http://kestory.github.io/">@kestory</a> 创建，采用 <a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> 作为主题，您可以在 GitHub 找到<a href="https://github.com/onevcat/OneV-s-Den">本站源码</a> - &copy; 2019</span>
+    </footer>
+</section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-132859938-1', '');
+    ga('send', 'pageview');
+</script>
+
+
+    
+  </body>
+
+</html>

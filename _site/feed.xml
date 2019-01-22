@@ -5,498 +5,166 @@
     <description>A senior NJU_CSer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Jan 2019 21:59:27 +0800</pubDate>
-    <lastBuildDate>Tue, 22 Jan 2019 21:59:27 +0800</lastBuildDate>
+    <pubDate>Tue, 22 Jan 2019 23:37:35 +0800</pubDate>
+    <lastBuildDate>Tue, 22 Jan 2019 23:37:35 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>tst</title>
-        <description>&lt;p&gt;##&lt;center&gt;Compiler HomeWork6&lt;/center&gt;
-###&amp;lt;p align=&quot;right&quot;&amp;gt;151220137 许子谦&amp;lt;/p&amp;gt;&lt;/p&gt;
+        <title>dental-cleaning-in-nanjing</title>
+        <description>&lt;p&gt;江苏省口腔医院：（上海站出来就是）（其实也是南京医科大学附属口腔医院…“暨”的关系，多重身份挂牌吧）
+可以预约，步骤：关注微信公众号→【魅力医院】→【微官网】→【常用就诊人】（实名注册，若是儿童就先注册家长，后添加儿童）→【今日挂号】（选科室，普通号/专家号，时间）→【就诊卡】→【立即挂号】→预约（约的区间是一小时，在3/4的时间前要到自助机或人工窗口缴费才行）
+洁牙预约：上午六点开始，【今日挂号】→【牙周病科】→牙周（洁）（一定要括号带“洁”字！它特地写很大导致我略过了…挂错号若是确定下一次来的时间可以转移，不然就作废了昂），仅限当日&lt;/p&gt;
 
-&lt;p&gt;###Ex6.1.1&lt;/p&gt;
+&lt;p&gt;南京市口腔医院：（鼓楼站步行范围）
+人少环境好，只能现场挂号不接受预约。
+这两家都是周一到周日都可以洗牙，工作日人少些。上下午上班前一小时就有人排队了&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;###Ex6.2.1&lt;/p&gt;
-
-&lt;p&gt;算术表达式：&lt;strong&gt;a + -(b+c)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;抽象语法树&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;三地址代码&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;t1 = b + c  
-t2 = -t1  
-t3 = a + t2  
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;四元式序列&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;op&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg2&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;result&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;c&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;minus&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;a&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;三元式序列&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;op&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;c&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(0)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;a&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(1)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;间接三元式序列&lt;br /&gt;
-附上一个指向三元式的指针的列表即可&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;instruction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;28&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;29&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(1)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;30&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(2)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;###Ex6.2.2-2)&lt;/p&gt;
-
-&lt;p&gt;算术表达式：&lt;strong&gt;a[i] = b*c - b*d&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;抽象语法树&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;三地址代码&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;t1 = b * c  
-t2 = b * d
-t3 = t1 - t2 
-a[i] = t3
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;四元式序列&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;op&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg2&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;result&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;*&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;c&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;*&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;d&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;[]=&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;i&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;a&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;三元式序列&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; &lt;/th&gt;
-      &lt;th&gt;op&lt;/th&gt;
-      &lt;th&gt;arg1&lt;/th&gt;
-      &lt;th&gt;arg2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;*&lt;/td&gt;
-      &lt;td&gt;b&lt;/td&gt;
-      &lt;td&gt;c&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1&lt;/td&gt;
-      &lt;td&gt;*&lt;/td&gt;
-      &lt;td&gt;b&lt;/td&gt;
-      &lt;td&gt;d&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2&lt;/td&gt;
-      &lt;td&gt;-&lt;/td&gt;
-      &lt;td&gt;(0)&lt;/td&gt;
-      &lt;td&gt;(1)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3&lt;/td&gt;
-      &lt;td&gt;+&lt;/td&gt;
-      &lt;td&gt;a&lt;/td&gt;
-      &lt;td&gt;i&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;=&lt;/td&gt;
-      &lt;td&gt;(3)&lt;/td&gt;
-      &lt;td&gt;(2)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;间接三元式序列&lt;br /&gt;
-附上一个指向三元式的指针的列表即可&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;instruction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;46&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;47&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(1)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;48&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(2)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;49&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(3)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;50&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(4)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;###Ex6.2.2-3)&lt;/p&gt;
-
-&lt;p&gt;算术表达式：&lt;strong&gt;x = f(y+1) + 2&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;抽象语法树&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;三地址代码&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;t1 = y + 1  
-param t1
-t2 = call f, 1
-t3 = t2 + 2
-x = t3
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;四元式序列&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;op&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg2&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;result&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;param&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;call&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;f&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;=&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;t3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;x&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;三元式序列&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;op&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;arg2&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;0&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;param&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(0)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;call&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;f&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;3&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(2)&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;=&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;x&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(3)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;间接三元式序列&lt;br /&gt;
-附上一个指向三元式的指针的列表即可&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;instruction&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;87&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(0)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;88&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(1)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;89&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(2)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;90&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(3)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;91&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;(4)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;鼓楼医院（顺路路过了下）：貌似莫得……反正急诊没有&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Jan 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/01/tst/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/01/tst/</guid>
+        <link>http://localhost:4000/2019/01/1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/1/</guid>
         
         
       </item>
     
       <item>
-        <title>Hello World - Vno</title>
-        <description>&lt;h4 id=&quot;whats-this&quot;&gt;What’s this&lt;/h4&gt;
+        <title>GameTheory HomeWork1</title>
+        <description>&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot;&gt;
+&lt;/script&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/onevcat/vno-jekyll&quot;&gt;Vno Jekyll&lt;/a&gt; is a theme for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. It is a port of my Ghost theme &lt;a href=&quot;https://github.com/onevcat/vno&quot;&gt;vno&lt;/a&gt;, which is originally developed from &lt;a href=&quot;https://github.com/daleanthony/uno&quot;&gt;Dale Anthony’s Uno&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chap0 三选一&lt;/li&gt;
+  &lt;li&gt;Chap1 An Exercise: n-Cournot Competition&lt;/li&gt;
+  &lt;li&gt;Chap2 两题&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;/h4&gt;
+&lt;hr /&gt;
 
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/onevcat/vno-jekyll.git your_site
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;your_site
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundler &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundler &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;chap0&quot;&gt;Chap0&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNc79gy1fzfryvuis6j314h0u0n75.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Your site with &lt;code class=&quot;highlighter-rouge&quot;&gt;Vno Jekyll&lt;/code&gt; enabled should be accessible in http://127.0.0.1:4000.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;exercise-1&quot;&gt;Exercise 1&lt;/h4&gt;
+&lt;p&gt;由 \( S_{n+1} \geq 2S_n \)&lt;br /&gt;
+得 \( S_n+a_{n+1} \geq 2S_n \)&lt;br /&gt;
+所以 \( a_{n+1} \geq S_n \)&lt;/p&gt;
 
-&lt;p&gt;For more information about Jekyll, please visit &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll’s site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;\( n=1 \) 时 \( a_2\geq S_1=a_1 \)&lt;br /&gt;
+\( n=2 \) 时 \( a_3\geq S_2=a_1+a_2 \geq 2a_1 \)&lt;br /&gt;
+\( n=3 \) 时 \( a_4\geq S_3=S_2+a_3 \geq 4a_1 \)&lt;br /&gt;
+\( n=4 \) 时 \( a_5\geq S_4=S_3+a_4 \geq 8a_1 \)&lt;br /&gt;
+…&lt;br /&gt;
+推得 \( a_{n+1} \geq 2^{n-1}a_1 \) 对于\( n \geq 1 \)&lt;br /&gt;
+即 \( a_{n} \geq 2^{n-2}a_1 \) 对于\( n \geq 2 \)  &lt;br /&gt;
+所以 \( c \) 只需要取 \( (0,\cfrac{a_1}{4}) \) 之间的数字即可得到 \( a_n \geq 2^nc \)&lt;br /&gt;
+\( a_{n+1} \geq 2^{n-1}a_1 \)的证明如下：&lt;br /&gt;
+\( a_{n+1} \geq S_n \geq a_n+S_{n-1} \geq 2S_{n-1} \geq 2(a_{n-1}+S_{n-2}) \geq 4S_{n-2} \geq … \geq 2^{n-1}S_1 = 2^{n-1}a_1\)&lt;/p&gt;
 
-&lt;h4 id=&quot;configuration&quot;&gt;Configuration&lt;/h4&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;exercise-2&quot;&gt;Exercise 2&lt;/h4&gt;
+&lt;p&gt;设给出的特征向量为\(\xi_1\)，矩阵为\(A\)，有\(A\xi_1=\lambda_1\xi_1\)&lt;br /&gt;
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\left[
+ \begin{matrix}
+   2 &amp; -1 &amp; b \\\
+   5 &amp; a &amp; 3 \\\
+   -1 &amp; 2 &amp; -1
+  \end{matrix}
+  \right] 
+ \left[
+ \begin{matrix}
+   1\\\
+   1\\\
+   -1
+  \end{matrix}
+  \right]
+  =\lambda\_1
+   \left[
+ \begin{matrix}
+   1\\\
+   1\\\
+   -1
+  \end{matrix}
+  \right] %]]&gt;&lt;/script&gt;
+解得\(\lambda_1=-2, a=-4, b=3\)&lt;br /&gt;
+由
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+|\lambda E-A|=
+ \left|
+ \begin{matrix}
+   \lambda-2 &amp; 1 &amp; -3 \\\
+   -5 &amp; \lambda+4 &amp; -3 \\\
+   1 &amp; -2 &amp; \lambda+1
+  \end{matrix}
+  \right| 
+  =(\lambda+2)(\lambda-2)(\lambda+3)=0 %]]&gt;&lt;/script&gt;
+得\(A\)的三个特征值为\(\lambda_1=-2, \lambda_2=2, \lambda_3=-3\)&lt;/p&gt;
 
-&lt;p&gt;All configuration could be done in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;. Remember you need to restart to serve the page when after changing the config file. Everything in the config file should be self-explanatory.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h4 id=&quot;exercise-3&quot;&gt;Exercise 3&lt;/h4&gt;
+&lt;p&gt;由 \(x+1 \leq e^x\)&lt;br /&gt;
+易得 \(x \leq e^{x-1}\)&lt;br /&gt;
+易得 \(\cfrac{1+\sqrt{1+4\epsilon^2}}{2} \leq e^{\cfrac{\sqrt{1+4\epsilon^2}-1}{2}}\)&lt;br /&gt;
+即证 \(e^{\frac{\sqrt{1+4\epsilon^2}-1}{2}} e^{1-\sqrt{1+4\epsilon^2}} \leq e^{-\frac{\epsilon^2-\epsilon^3}{2}}\)&lt;br /&gt;
+\(\Leftrightarrow 1-\sqrt{1+4\epsilon^2} \leq \epsilon^3-\epsilon^2\)&lt;br /&gt;
+\(\Leftrightarrow 1+\epsilon^2-\epsilon^3 \leq \sqrt{1+4\epsilon^2}\)&lt;br /&gt;
+…&lt;br /&gt;
+…&lt;/p&gt;
 
-&lt;h4 id=&quot;background-image-and-avatar&quot;&gt;Background image and avatar&lt;/h4&gt;
+&lt;p&gt;&amp;lt;/br&amp;gt;
+&amp;lt;/br&amp;gt;&lt;/p&gt;
 
-&lt;p&gt;You could replace the background and avatar image in &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/images&lt;/code&gt; folder to change them.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;h4 id=&quot;sites-using-vno&quot;&gt;Sites using Vno&lt;/h4&gt;
+&lt;h2 id=&quot;chap1&quot;&gt;Chap1&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNc79gy1fzfrz0g4w7j314d0u0471.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://onevcat.com&quot;&gt;My blog&lt;/a&gt; is using &lt;code class=&quot;highlighter-rouge&quot;&gt;Vno Jekyll&lt;/code&gt; as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;令收益函数的自变量为\(q_i\)，即求一元二次方程最值时的自变量&lt;br /&gt;
+\(f(q_i)=(a-b(q_1+…+q_n)-c)q_i=(a-c-b\sum\limits_{k\neq i}q_k)q_i-bq_i^2\)&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Site Name&lt;/th&gt;
-      &lt;th&gt;URL&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;OneV’s Den&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://onevcat.com&quot;&gt;http://onevcat.com&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;July Tang&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://onevcat.com&quot;&gt;http://blog.julytang.xyz&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Harry Lee&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://qiuqi.li&quot;&gt;http://qiuqi.li&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;对称轴为\( \cfrac{a-c-b\sum\limits_{k\neq i}q_k}{2b} \)，对称轴为负时收益为负不如产量为0&lt;br /&gt;
+对称轴为正时在对称轴处取最值&lt;br /&gt;
+n个式子连等&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;If you happen to be using this theme, welcome to &lt;a href=&quot;https://github.com/onevcat/vno-jekyll/pulls&quot;&gt;send me a pull request&lt;/a&gt; to add your site link here. :)&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;\( q_i^*=B_i(q_{-i}^{*})=\cfrac{a-c-b\sum\limits_{k\neq i}q_k}{2b} \)&lt;/p&gt;
 
-&lt;h4 id=&quot;license&quot;&gt;License&lt;/h4&gt;
+&lt;p&gt;\(q_i^{*}\)都等价&lt;/p&gt;
 
-&lt;p&gt;Great thanks to &lt;a href=&quot;https://github.com/daleanthony&quot;&gt;Dale Anthony&lt;/a&gt; and his &lt;a href=&quot;https://github.com/daleanthony/uno&quot;&gt;Uno&lt;/a&gt;. Vno Jekyll is based on Uno, and contains a lot of modification on page layout, animation, font and some more things I can not remember. Vno Jekyll is followed with Uno and be licensed as &lt;a href=&quot;http://creativecommons.org/licenses/by/4.0/&quot;&gt;Creative Commons Attribution 4.0 International&lt;/a&gt;. See the link for more information.&lt;/p&gt;
+&lt;p&gt;得\( q_i^*=\cfrac{a-c}{(n+1)b} \)&lt;br /&gt;
+即\(NE\)为\(\begin{Bmatrix}\left(\cfrac{a-c}{(n+1)b}, \cfrac{a-c}{(n+1)b}, … , \cfrac{a-c}{(n+1)b}\right)\end{Bmatrix}\)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;chap2&quot;&gt;Chap2&lt;/h2&gt;
+&lt;h3 id=&quot;exercise-1-1&quot;&gt;Exercise 1&lt;/h3&gt;
+&lt;h3 id=&quot;find-all-pure-strategy-nash-equilibria&quot;&gt;Find all pure strategy Nash equilibria&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tNc79gy1fzfrz67u3bj31nw0u0459.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+纯策略NE就是找&lt;strong&gt;蓝列最大值&lt;/strong&gt;和&lt;strong&gt;红行最大值&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;https://ws1.sinaimg.cn/large/006tNc79gy1fzfrz9b4n8j31nw0u0jwt.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+该博弈只有一个纳什均衡 &lt;strong&gt;(e, l)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;exercise-2-田忌赛马&quot;&gt;Exercise 2 田忌赛马&lt;/h3&gt;
+&lt;p&gt;令齐威王的策略分别为 \( a_1, a_2, a_3, a_4, a_5, a_6 \)，每个策略对应的概率\( x_1, x_2, x_3, x_4, x_5, x_6 \)&lt;br /&gt;
+田忌的策略分别为 \( b_1, b_2, b_3, b_4, b_5, b_6 \)，每个策略对应的概率\( y_1, y_2, y_3, y_4, y_5, y_6 \)&lt;/p&gt;
+
+&lt;p&gt;齐威王各策略的期望收益函数为：&lt;br /&gt;
+\( U_1(a_1, p_2) = 3x_1 + x_2 + x_3 + x_4 - x_5 + x_6 \)&lt;br /&gt;
+\( U_1(a_2, p_2) = x_1 + 3x_2 + x_3 + x_4 + x_5 - x_6 \)&lt;br /&gt;
+\( U_1(a_3, p_2) = x_1 - x_2 + 3x_3 + x_4 + x_5 + x_6 \)&lt;br /&gt;
+\( U_1(a_4, p_2) = -x_1 + x_2 + x_3 + 3x_4 + x_5 + x_6 \)&lt;br /&gt;
+\( U_1(a_5, p_2) = x_1 + x_2 + x_3 - x_4 + 3x_5 + x_6 \)&lt;br /&gt;
+\( U_1(a_6, p_2) = x_1 + x_2 - x_3 + x_4 + x_5 + 3x_6 \)&lt;br /&gt;
+混合策略NE就是蓝行皆相等 以上6式子皆相等&lt;br /&gt;
+\(  x_i \)都等价，所以都为\( \frac{1}{6} \)。同理\(  y_i \)都为\( \frac{1}{6} \)。 
+不过齐威王各策略的期望收益都为\(  1 \)，而田忌各策略的期望收益都为\(  -1 \)&lt;br /&gt;
+Nash Equilibrium: \( p=(p_1, p_2)=((\cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}), (\cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6}, \cfrac{1}{6})) \)&lt;/p&gt;
 </description>
-        <pubDate>Tue, 16 Feb 2016 14:32:24 +0800</pubDate>
-        <link>http://localhost:4000/2016/02/hello-world-vno/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/02/hello-world-vno/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sample Post</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 15 Feb 2016 14:32:24 +0800</pubDate>
-        <link>http://localhost:4000/2016/02/sample-post/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/02/sample-post/</guid>
+        <pubDate>Tue, 22 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/GameTheory-Intro/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/GameTheory-Intro/</guid>
         
         
       </item>
