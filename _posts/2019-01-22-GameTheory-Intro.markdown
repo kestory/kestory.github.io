@@ -3,12 +3,9 @@ layout: post
 title: GameTheory HomeWork1
 date: 2019-01-22
 ---
-
-
 <script type="text/javascript"
   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-
 
 * Chap0 三选一  
 * Chap1 An Exercise: n-Cournot Competition  
@@ -95,7 +92,6 @@ $$
         
           
 ---
-
 ## Chap1
 ![](https://ws1.sinaimg.cn/large/006tNc79gy1fzfrz0g4w7j314d0u0471.jpg)  
 
@@ -116,15 +112,13 @@ n个式子连等
 
 
 ---
-
 ## Chap2
 ### Exercise 1 
 ### Find all pure strategy Nash equilibria
 ![](https://ws4.sinaimg.cn/large/006tNc79gy1fzfrz67u3bj31nw0u0459.jpg)  
 纯策略NE就是找**蓝列最大值**和**红行最大值**  
 ![](https://ws1.sinaimg.cn/large/006tNc79gy1fzfrz9b4n8j31nw0u0jwt.jpg)  
-该博弈只有一个纳什均衡 **(e, l)**  
-
+该博弈只有一个纳什均衡 **(e, l)**
 ---
 ### Exercise 2 田忌赛马  
 令齐威王的策略分别为 \\( a\_1, a\_2, a\_3, a\_4, a\_5, a\_6 \\)，每个策略对应的概率\\( x\_1, x\_2, x\_3, x\_4, x\_5, x\_6 \\)  
