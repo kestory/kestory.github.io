@@ -3,15 +3,17 @@ layout: post
 title: about me
 date: 1997-09-17
 ---
-[Zhihu](https://www.zhihu.com/people/kestory): 读书笔记&讲座记录；点赞 500+
 
-[Bilibili](http://space.bilibili.com/22266307?): Life Show；播放数 2W+
+Zhihu: <https://www.zhihu.com/people/kestory>
 
-[Douban](https://www.douban.com/people/156922617/): 读过&看过，大多会给80%星
+Bilibili: <http://space.bilibili.com/22266307?>
 
-[Weibo](https://weibo.com/kestory): 转发了上千条……
+Douban: <https://www.douban.com/people/kestory/>
 
-[Twitter](https://twitter.com/kestory_xu): 不定期更新
+Weibo: <https://weibo.com/kestory>
 
-[Github](https://github.com/kestory): 程序员交友，水过的项目上万star
+Twitter: <https://twitter.com/kestory_xu>
 
+Github: <https://github.com/kestory>
+
+CSDN: <https://blog.csdn.net/kestory>
