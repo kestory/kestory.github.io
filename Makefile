@@ -1,5 +1,5 @@
 git:
 	git add .
 	git status
-	git commit -m "2019.6.3"
+	git commit -m "2021.1.25"
 	git push
